@@ -1,0 +1,57 @@
+.content{
+    margin-top: 10px;
+    width: 230px;
+    height:400px;
+    background-color: magenta;
+
+}
+
+.sidebar{
+    width: 300px;
+    height: 100vh;
+    background-color: gray;
+    transform: translate(-250px);
+}
+
+.sidebar i{
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    left: 260px;
+    top: 10px;
+}
+
+.container{
+    position: absolute;
+    top: 50px;
+    left: 500px;
+}
+
+.options{
+    background-color: gray;
+    border: 1px solid black;
+    width: 300px;
+    height: 50px;
+}
+.main{
+    background-color: gray;
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+}
+.options ul{
+    display: flex;
+    margin-left: -32px ;
+    gap: 10px;
+}
+.options li{
+    list-style: none;
+    font-size: 22px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 8px;
+    padding-bottom: 7px;
+}
+.active{
+    background-color: rgb(73, 73, 244);
+}
